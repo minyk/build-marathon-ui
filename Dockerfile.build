@@ -1,0 +1,4 @@
+ARG MARATHON_TAG
+FROM mesosphere/marathon:${MARATHON_TAG}
+
+COPY dist/mesosphere.marathon.ui-1.2.0.jar /marathon/lib/mesosphere.marathon.ui-1.2.0.jar
